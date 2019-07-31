@@ -25,10 +25,10 @@ airflow:
   image:
     ##
     ## docker-airflow image
-    repository: airflow
+    repository: puckel/docker-airflow
     ##
     ## image tag
-    tag: latest
+    tag: 1.10.3
     ##
     ## Image pull policy
     ## values: Always or IfNotPresent
