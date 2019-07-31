@@ -101,6 +101,7 @@ airflow:
       url: https://github.com/apache/airflow
       branch: master
       subpath: dags
+      secret:
       ##
       ## Number of seconds to wait between git synchronizations
       wait: 60
